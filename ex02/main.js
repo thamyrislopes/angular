@@ -1,8 +1,37 @@
 
 
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "Obrigada por clicar!";
+    console.log(document.getElementById("agradecimento"));
+
+}
+
+function redirecionar(){
+    window.open("https://www.google.com.br/");
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigada!";
+    //alert("BUU!! 👻👻");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui :)";
+}
+
+function load(){
+    alert("Página carregada!")
+}
+
+function change(elemento){
+    console.log(elemento.value)
+}
+
+/*
 var d = new Date();
 console.log(d);
 console.log(d.getDay());
+*/
 
 /*
 var count;
